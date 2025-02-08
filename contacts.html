@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Future Tech | Contacts</title>
 	<link rel="stylesheet" href="./styles/main.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/7.6.1/imask.min.js" defer></script>
 	<script src="./scripts/main.js" type="module" defer></script>
 </head>
 
@@ -181,7 +182,8 @@
 										<label class="field__label" for="phoneNumber">Phone Number</label>
 										<div class="field__body">
 											<div class="select">SELECT</div>
-											<input id="phoneNumber" class="field__control" placeholder="(999) 999-99-99">
+											<input id="phoneNumber" class="field__control" placeholder="(999) 999-99-99"
+												data-js-input-mask="(000) 000-00-00">
 										</div>
 									</div>
 									<div class="feedback-form__cell feedback-form__cell--wide field">
